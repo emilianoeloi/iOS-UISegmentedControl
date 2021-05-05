@@ -14,8 +14,8 @@ class HomeViewController: UIViewController {
         
         navSegmentControl.translatesAutoresizingMaskIntoConstraints = false
         navSegmentControl.addTarget(self, action: #selector(madeSelection), for: .valueChanged)
-        navSegmentControl.insertSegment(withTitle: "iOS", at: 0, animated: false)
-        navSegmentControl.insertSegment(withTitle: "Android", at: 1, animated: false)
+        navSegmentControl.insertSegment(withTitle: "iOS", at: 0, animated: true)
+        navSegmentControl.insertSegment(withTitle: "Android", at: 1, animated: true)
         navSegmentControl.selectedSegmentIndex = 0
         
         return navSegmentControl
@@ -39,6 +39,7 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.accessibilityIdentifier = "HomeViewController"
         view.backgroundColor = UIColor(named: "background")
         iOSVC.view.isHidden = false
         setup()

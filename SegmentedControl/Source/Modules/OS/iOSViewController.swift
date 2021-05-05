@@ -11,6 +11,7 @@ class iOSViewController: OSViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.accessibilityIdentifier = "iOSViewController"
         
         let ios = OS(name: "iOS")
         self.os = ios

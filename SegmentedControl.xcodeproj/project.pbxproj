@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC6CC4092642158C00414382 /* scUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC4082642158C00414382 /* scUITests.swift */; };
+		AC6CC4112642217A00414382 /* HomeViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC4102642217A00414382 /* HomeViewControllerUITests.swift */; };
+		AC6CC414264221E000414382 /* XCUIApplication+HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC413264221E000414382 /* XCUIApplication+HomeViewController.swift */; };
+		AC6CC4172642253400414382 /* iOSViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC4162642253400414382 /* iOSViewControllerUITests.swift */; };
+		AC6CC4192642255500414382 /* XCUIApplication+iOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC4182642255500414382 /* XCUIApplication+iOSViewController.swift */; };
+		AC6CC41C264225E600414382 /* AndroidViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC41B264225E600414382 /* AndroidViewControllerUITests.swift */; };
+		AC6CC41E2642260800414382 /* XCUIApplication+AndroidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC41D2642260800414382 /* XCUIApplication+AndroidViewController.swift */; };
 		ACBCD5572640E1E3007AA96F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCD5562640E1E3007AA96F /* AppDelegate.swift */; };
 		ACBCD5592640E1E3007AA96F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCD5582640E1E3007AA96F /* SceneDelegate.swift */; };
 		ACBCD55B2640E1E3007AA96F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCD55A2640E1E3007AA96F /* HomeViewController.swift */; };
@@ -21,8 +28,27 @@
 		ACBCD57B264101EF007AA96F /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCD57A264101EF007AA96F /* UIColor+extension.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AC6CC40B2642158C00414382 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACBCD54B2640E1E3007AA96F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACBCD5522640E1E3007AA96F;
+			remoteInfo = SegmentedControl;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		ACBCD5532640E1E3007AA96F /* iOS-SegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-SegmentedControl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6CC4062642158C00414382 /* scUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6CC4082642158C00414382 /* scUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scUITests.swift; sourceTree = "<group>"; };
+		AC6CC40A2642158C00414382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC6CC4102642217A00414382 /* HomeViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerUITests.swift; sourceTree = "<group>"; };
+		AC6CC413264221E000414382 /* XCUIApplication+HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCUIApplication+HomeViewController.swift"; sourceTree = "<group>"; };
+		AC6CC4162642253400414382 /* iOSViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSViewControllerUITests.swift; sourceTree = "<group>"; };
+		AC6CC4182642255500414382 /* XCUIApplication+iOSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCUIApplication+iOSViewController.swift"; sourceTree = "<group>"; };
+		AC6CC41B264225E600414382 /* AndroidViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidViewControllerUITests.swift; sourceTree = "<group>"; };
+		AC6CC41D2642260800414382 /* XCUIApplication+AndroidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCUIApplication+AndroidViewController.swift"; sourceTree = "<group>"; };
+		ACBCD5532640E1E3007AA96F /* SegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBCD5562640E1E3007AA96F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACBCD5582640E1E3007AA96F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ACBCD55A2640E1E3007AA96F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +65,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AC6CC4032642158C00414382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACBCD5502640E1E3007AA96F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -49,10 +82,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC6CC4072642158C00414382 /* scUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC6CC4082642158C00414382 /* scUITests.swift */,
+				AC6CC41A264225CF00414382 /* AndroidViewControllerTest */,
+				AC6CC4152642250800414382 /* iOSViewControllerTest */,
+				AC6CC412264221B400414382 /* HomeViewControllerTest */,
+				AC6CC40A2642158C00414382 /* Info.plist */,
+			);
+			path = scUITests;
+			sourceTree = "<group>";
+		};
+		AC6CC412264221B400414382 /* HomeViewControllerTest */ = {
+			isa = PBXGroup;
+			children = (
+				AC6CC4102642217A00414382 /* HomeViewControllerUITests.swift */,
+				AC6CC413264221E000414382 /* XCUIApplication+HomeViewController.swift */,
+			);
+			path = HomeViewControllerTest;
+			sourceTree = "<group>";
+		};
+		AC6CC4152642250800414382 /* iOSViewControllerTest */ = {
+			isa = PBXGroup;
+			children = (
+				AC6CC4162642253400414382 /* iOSViewControllerUITests.swift */,
+				AC6CC4182642255500414382 /* XCUIApplication+iOSViewController.swift */,
+			);
+			path = iOSViewControllerTest;
+			sourceTree = "<group>";
+		};
+		AC6CC41A264225CF00414382 /* AndroidViewControllerTest */ = {
+			isa = PBXGroup;
+			children = (
+				AC6CC41B264225E600414382 /* AndroidViewControllerUITests.swift */,
+				AC6CC41D2642260800414382 /* XCUIApplication+AndroidViewController.swift */,
+			);
+			path = AndroidViewControllerTest;
+			sourceTree = "<group>";
+		};
 		ACBCD54A2640E1E3007AA96F = {
 			isa = PBXGroup;
 			children = (
-				ACBCD5552640E1E3007AA96F /* iOS-SegmentedControl */,
+				ACBCD5552640E1E3007AA96F /* SegmentedControl */,
+				AC6CC4072642158C00414382 /* scUITests */,
 				ACBCD5542640E1E3007AA96F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,19 +133,20 @@
 		ACBCD5542640E1E3007AA96F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACBCD5532640E1E3007AA96F /* iOS-SegmentedControl.app */,
+				ACBCD5532640E1E3007AA96F /* SegmentedControl.app */,
+				AC6CC4062642158C00414382 /* scUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ACBCD5552640E1E3007AA96F /* iOS-SegmentedControl */ = {
+		ACBCD5552640E1E3007AA96F /* SegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
 				ACBCD56B2640E4CB007AA96F /* Source */,
 				ACBCD56A2640E4BF007AA96F /* Resource */,
 				ACBCD5642640E1E6007AA96F /* Info.plist */,
 			);
-			path = "iOS-SegmentedControl";
+			path = SegmentedControl;
 			sourceTree = "<group>";
 		};
 		ACBCD56A2640E4BF007AA96F /* Resource */ = {
@@ -136,9 +210,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ACBCD5522640E1E3007AA96F /* iOS-SegmentedControl */ = {
+		AC6CC4052642158C00414382 /* scUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACBCD5672640E1E6007AA96F /* Build configuration list for PBXNativeTarget "iOS-SegmentedControl" */;
+			buildConfigurationList = AC6CC40D2642158C00414382 /* Build configuration list for PBXNativeTarget "scUITests" */;
+			buildPhases = (
+				AC6CC4022642158C00414382 /* Sources */,
+				AC6CC4032642158C00414382 /* Frameworks */,
+				AC6CC4042642158C00414382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC6CC40C2642158C00414382 /* PBXTargetDependency */,
+			);
+			name = scUITests;
+			productName = scUITests;
+			productReference = AC6CC4062642158C00414382 /* scUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		ACBCD5522640E1E3007AA96F /* SegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACBCD5672640E1E6007AA96F /* Build configuration list for PBXNativeTarget "SegmentedControl" */;
 			buildPhases = (
 				ACBCD54F2640E1E3007AA96F /* Sources */,
 				ACBCD5502640E1E3007AA96F /* Frameworks */,
@@ -148,9 +240,9 @@
 			);
 			dependencies = (
 			);
-			name = "iOS-SegmentedControl";
+			name = SegmentedControl;
 			productName = "iOS-SegmentedControl";
-			productReference = ACBCD5532640E1E3007AA96F /* iOS-SegmentedControl.app */;
+			productReference = ACBCD5532640E1E3007AA96F /* SegmentedControl.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -162,12 +254,16 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					AC6CC4052642158C00414382 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = ACBCD5522640E1E3007AA96F;
+					};
 					ACBCD5522640E1E3007AA96F = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
-			buildConfigurationList = ACBCD54E2640E1E3007AA96F /* Build configuration list for PBXProject "iOS-SegmentedControl" */;
+			buildConfigurationList = ACBCD54E2640E1E3007AA96F /* Build configuration list for PBXProject "SegmentedControl" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -180,12 +276,20 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ACBCD5522640E1E3007AA96F /* iOS-SegmentedControl */,
+				ACBCD5522640E1E3007AA96F /* SegmentedControl */,
+				AC6CC4052642158C00414382 /* scUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AC6CC4042642158C00414382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACBCD5512640E1E3007AA96F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,6 +303,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AC6CC4022642158C00414382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6CC414264221E000414382 /* XCUIApplication+HomeViewController.swift in Sources */,
+				AC6CC4092642158C00414382 /* scUITests.swift in Sources */,
+				AC6CC4112642217A00414382 /* HomeViewControllerUITests.swift in Sources */,
+				AC6CC41E2642260800414382 /* XCUIApplication+AndroidViewController.swift in Sources */,
+				AC6CC41C264225E600414382 /* AndroidViewControllerUITests.swift in Sources */,
+				AC6CC4192642255500414382 /* XCUIApplication+iOSViewController.swift in Sources */,
+				AC6CC4172642253400414382 /* iOSViewControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACBCD54F2640E1E3007AA96F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -216,6 +334,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC6CC40C2642158C00414382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACBCD5522640E1E3007AA96F /* SegmentedControl */;
+			targetProxy = AC6CC40B2642158C00414382 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ACBCD55C2640E1E3007AA96F /* Main.storyboard */ = {
@@ -237,6 +363,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AC6CC40E2642158C00414382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZFLG4EDBU;
+				INFOPLIST_FILE = scUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.emilianoeloi.scUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SegmentedControl;
+			};
+			name = Debug;
+		};
+		AC6CC40F2642158C00414382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZFLG4EDBU;
+				INFOPLIST_FILE = scUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.emilianoeloi.scUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SegmentedControl;
+			};
+			name = Release;
+		};
 		ACBCD5652640E1E6007AA96F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -360,12 +524,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5ZFLG4EDBU;
-				INFOPLIST_FILE = "iOS-SegmentedControl/Info.plist";
+				INFOPLIST_FILE = SegmentedControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.emilianoeloi.iOS-SegmentedControl";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.emilianoeloi.segmentedControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -379,12 +543,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5ZFLG4EDBU;
-				INFOPLIST_FILE = "iOS-SegmentedControl/Info.plist";
+				INFOPLIST_FILE = SegmentedControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.emilianoeloi.iOS-SegmentedControl";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.emilianoeloi.segmentedControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -394,7 +558,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ACBCD54E2640E1E3007AA96F /* Build configuration list for PBXProject "iOS-SegmentedControl" */ = {
+		AC6CC40D2642158C00414382 /* Build configuration list for PBXNativeTarget "scUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC6CC40E2642158C00414382 /* Debug */,
+				AC6CC40F2642158C00414382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACBCD54E2640E1E3007AA96F /* Build configuration list for PBXProject "SegmentedControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACBCD5652640E1E6007AA96F /* Debug */,
@@ -403,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACBCD5672640E1E6007AA96F /* Build configuration list for PBXNativeTarget "iOS-SegmentedControl" */ = {
+		ACBCD5672640E1E6007AA96F /* Build configuration list for PBXNativeTarget "SegmentedControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACBCD5682640E1E6007AA96F /* Debug */,
