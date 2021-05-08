@@ -7,13 +7,16 @@
 
 import UIKit
 
-class OSViewController: UIViewController {
+class OSViewController: UIViewController, SpinnerViewPresenter {
+    var activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView()
+
     private let titleView: UILabel = {
         var title = UILabel(frame: .zero)
         title.translatesAutoresizingMaskIntoConstraints = false
         title.font = UIFont.systemFont(ofSize: 24)
         return title
     }()
+    
     public var os: OS? {
         didSet {
             guard let name = os?.name else { return }
@@ -24,6 +27,10 @@ class OSViewController: UIViewController {
         super.viewDidLoad()
         view.accessibilityIdentifier = "OSViewController"
         setup()
+        showActivityIndicator()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            self.hideActivityIndicator()
+        }
     }
 }
 
@@ -38,7 +45,7 @@ extension OSViewController: ViewCodable {
     func setupAnchors() {
         NSLayoutConstraint.activate([
             titleView.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor, constant: 8),
-            titleView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 8),
+            titleView.topAnchor.constraint(equalTo: view.topAnchor, constant: 8),
             titleView.trailingAnchor.constraint(equalTo: view.layoutMarginsGuide.trailingAnchor, constant: 8)
         ])
     }

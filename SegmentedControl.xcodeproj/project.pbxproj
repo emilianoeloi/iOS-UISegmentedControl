@@ -26,6 +26,7 @@
 		ACBCD5762640E879007AA96F /* ViewCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCD5752640E879007AA96F /* ViewCodable.swift */; };
 		ACBCD5792640EE91007AA96F /* OS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCD5782640EE91007AA96F /* OS.swift */; };
 		ACBCD57B264101EF007AA96F /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCD57A264101EF007AA96F /* UIColor+extension.swift */; };
+		ACFF6EA72646E70B005F2528 /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF6EA62646E70B005F2528 /* SpinnerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		ACBCD5752640E879007AA96F /* ViewCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodable.swift; sourceTree = "<group>"; };
 		ACBCD5782640EE91007AA96F /* OS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OS.swift; sourceTree = "<group>"; };
 		ACBCD57A264101EF007AA96F /* UIColor+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		ACFF6EA62646E70B005F2528 /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 			children = (
 				ACBCD5752640E879007AA96F /* ViewCodable.swift */,
 				ACBCD57A264101EF007AA96F /* UIColor+extension.swift */,
+				ACFF6EA62646E70B005F2528 /* SpinnerViewController.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				ACBCD5732640E6AF007AA96F /* OSViewController.swift in Sources */,
 				ACBCD57B264101EF007AA96F /* UIColor+extension.swift in Sources */,
 				ACBCD5572640E1E3007AA96F /* AppDelegate.swift in Sources */,
+				ACFF6EA72646E70B005F2528 /* SpinnerViewController.swift in Sources */,
 				ACBCD56F2640E58E007AA96F /* AndroidViewController.swift in Sources */,
 				ACBCD5792640EE91007AA96F /* OS.swift in Sources */,
 				ACBCD5592640E1E3007AA96F /* SceneDelegate.swift in Sources */,
