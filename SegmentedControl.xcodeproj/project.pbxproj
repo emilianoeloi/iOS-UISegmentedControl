@@ -27,6 +27,7 @@
 		ACBCD5792640EE91007AA96F /* OS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCD5782640EE91007AA96F /* OS.swift */; };
 		ACBCD57B264101EF007AA96F /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCD57A264101EF007AA96F /* UIColor+extension.swift */; };
 		ACFF6EA72646E70B005F2528 /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF6EA62646E70B005F2528 /* SpinnerViewController.swift */; };
+		ACFF6EA92647558F005F2528 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF6EA82647558F005F2528 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		ACBCD5782640EE91007AA96F /* OS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OS.swift; sourceTree = "<group>"; };
 		ACBCD57A264101EF007AA96F /* UIColor+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
 		ACFF6EA62646E70B005F2528 /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		ACFF6EA82647558F005F2528 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				ACBCD5752640E879007AA96F /* ViewCodable.swift */,
+				ACFF6EA82647558F005F2528 /* Utils.swift */,
 				ACBCD57A264101EF007AA96F /* UIColor+extension.swift */,
 				ACFF6EA62646E70B005F2528 /* SpinnerViewController.swift */,
 			);
@@ -331,6 +334,7 @@
 				ACBCD5572640E1E3007AA96F /* AppDelegate.swift in Sources */,
 				ACFF6EA72646E70B005F2528 /* SpinnerViewController.swift in Sources */,
 				ACBCD56F2640E58E007AA96F /* AndroidViewController.swift in Sources */,
+				ACFF6EA92647558F005F2528 /* Utils.swift in Sources */,
 				ACBCD5792640EE91007AA96F /* OS.swift in Sources */,
 				ACBCD5592640E1E3007AA96F /* SceneDelegate.swift in Sources */,
 				ACBCD5762640E879007AA96F /* ViewCodable.swift in Sources */,

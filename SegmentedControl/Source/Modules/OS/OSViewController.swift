@@ -7,9 +7,7 @@
 
 import UIKit
 
-class OSViewController: UIViewController, SpinnerViewPresenter {
-    var activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView()
-
+class OSViewController: UIViewController {
     private let titleView: UILabel = {
         var title = UILabel(frame: .zero)
         title.translatesAutoresizingMaskIntoConstraints = false
@@ -27,9 +25,9 @@ class OSViewController: UIViewController, SpinnerViewPresenter {
         super.viewDidLoad()
         view.accessibilityIdentifier = "OSViewController"
         setup()
-        showActivityIndicator()
+        Utils.showActivityIndicator(view: view, targetVC: self)
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            self.hideActivityIndicator()
+            Utils.hideActivityIndicator(view: self.view)
         }
     }
 }

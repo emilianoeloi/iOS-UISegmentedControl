@@ -13,3 +13,5 @@ Segmented Control: https://developer.apple.com/design/human-interface-guidelines
 Getting started with Xcode UI testing in Swift: https://www.swiftbysundell.com/articles/getting-started-with-xcode-ui-testing-in-swift/ Acessado em 04/05/2021
 
 How to use UIActivityIndicatorView to show a spinner when work is happening: https://www.hackingwithswift.com/example-code/uikit/how-to-use-uiactivityindicatorview-to-show-a-spinner-when-work-is-happening Acessado em 08/05/2021
+
+Presenting Coordinators - Soroush Khanlou:  https://vimeo.com/144116310 Acessado em 10/05/2021
