@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC4EFA6026516C6100379041 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4EFA5F26516C6100379041 /* Bundle+Extension.swift */; };
+		AC4EFA6526516E7500379041 /* os.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4EFA6426516E7500379041 /* os.json */; };
+		AC4EFA6726517D8400379041 /* osList.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4EFA6626517D8400379041 /* osList.json */; };
+		AC5675D9264C66C600215437 /* AllCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5675D8264C66C600215437 /* AllCollectionViewCell.swift */; };
+		AC5675DB264C66E700215437 /* AllCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5675DA264C66E700215437 /* AllCollectionViewController.swift */; };
+		AC5675DD264C7C5900215437 /* CollectionViewCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5675DC264C7C5900215437 /* CollectionViewCodable.swift */; };
 		AC6CC4092642158C00414382 /* scUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC4082642158C00414382 /* scUITests.swift */; };
 		AC6CC4112642217A00414382 /* HomeViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC4102642217A00414382 /* HomeViewControllerUITests.swift */; };
 		AC6CC414264221E000414382 /* XCUIApplication+HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC413264221E000414382 /* XCUIApplication+HomeViewController.swift */; };
@@ -20,14 +26,13 @@
 		ACBCD55E2640E1E3007AA96F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBCD55C2640E1E3007AA96F /* Main.storyboard */; };
 		ACBCD5602640E1E6007AA96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBCD55F2640E1E6007AA96F /* Assets.xcassets */; };
 		ACBCD5632640E1E6007AA96F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBCD5612640E1E6007AA96F /* LaunchScreen.storyboard */; };
-		ACBCD56D2640E56C007AA96F /* iOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCD56C2640E56C007AA96F /* iOSViewController.swift */; };
-		ACBCD56F2640E58E007AA96F /* AndroidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCD56E2640E58E007AA96F /* AndroidViewController.swift */; };
 		ACBCD5732640E6AF007AA96F /* OSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCD5722640E6AF007AA96F /* OSViewController.swift */; };
 		ACBCD5762640E879007AA96F /* ViewCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCD5752640E879007AA96F /* ViewCodable.swift */; };
 		ACBCD5792640EE91007AA96F /* OS.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCD5782640EE91007AA96F /* OS.swift */; };
 		ACBCD57B264101EF007AA96F /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCD57A264101EF007AA96F /* UIColor+extension.swift */; };
 		ACFF6EA72646E70B005F2528 /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF6EA62646E70B005F2528 /* SpinnerViewController.swift */; };
 		ACFF6EA92647558F005F2528 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF6EA82647558F005F2528 /* Utils.swift */; };
+		F041012BECB468222A26385C /* Pods_SegmentedControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C96922F0CB54AC3768EB3E /* Pods_SegmentedControl.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E7D31490579DBB9645A6813 /* Pods-SegmentedControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentedControl.release.xcconfig"; path = "Target Support Files/Pods-SegmentedControl/Pods-SegmentedControl.release.xcconfig"; sourceTree = "<group>"; };
+		4B095A4713B66CE4B4A88BA8 /* Pods-SegmentedControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentedControl.debug.xcconfig"; path = "Target Support Files/Pods-SegmentedControl/Pods-SegmentedControl.debug.xcconfig"; sourceTree = "<group>"; };
+		AC4EFA5F26516C6100379041 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		AC4EFA6426516E7500379041 /* os.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = os.json; sourceTree = "<group>"; };
+		AC4EFA6626517D8400379041 /* osList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = osList.json; sourceTree = "<group>"; };
+		AC5675D8264C66C600215437 /* AllCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC5675DA264C66E700215437 /* AllCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCollectionViewController.swift; sourceTree = "<group>"; };
+		AC5675DC264C7C5900215437 /* CollectionViewCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCodable.swift; sourceTree = "<group>"; };
 		AC6CC4062642158C00414382 /* scUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6CC4082642158C00414382 /* scUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scUITests.swift; sourceTree = "<group>"; };
 		AC6CC40A2642158C00414382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,14 +71,13 @@
 		ACBCD55F2640E1E6007AA96F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACBCD5622640E1E6007AA96F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACBCD5642640E1E6007AA96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACBCD56C2640E56C007AA96F /* iOSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSViewController.swift; sourceTree = "<group>"; };
-		ACBCD56E2640E58E007AA96F /* AndroidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidViewController.swift; sourceTree = "<group>"; };
 		ACBCD5722640E6AF007AA96F /* OSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSViewController.swift; sourceTree = "<group>"; };
 		ACBCD5752640E879007AA96F /* ViewCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodable.swift; sourceTree = "<group>"; };
 		ACBCD5782640EE91007AA96F /* OS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OS.swift; sourceTree = "<group>"; };
 		ACBCD57A264101EF007AA96F /* UIColor+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
 		ACFF6EA62646E70B005F2528 /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
 		ACFF6EA82647558F005F2528 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B6C96922F0CB54AC3768EB3E /* Pods_SegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +92,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F041012BECB468222A26385C /* Pods_SegmentedControl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E775E090DA3A85F2E057E90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6C96922F0CB54AC3768EB3E /* Pods_SegmentedControl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70FC3786D6C67C51045AA273 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B095A4713B66CE4B4A88BA8 /* Pods-SegmentedControl.debug.xcconfig */,
+				2E7D31490579DBB9645A6813 /* Pods-SegmentedControl.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC4EFA5E26516C4E00379041 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AC4EFA5F26516C6100379041 /* Bundle+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AC4EFA6126516DEC00379041 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				AC4EFA6426516E7500379041 /* os.json */,
+				AC4EFA6626517D8400379041 /* osList.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		AC5675D7264C66A900215437 /* All */ = {
+			isa = PBXGroup;
+			children = (
+				AC5675DA264C66E700215437 /* AllCollectionViewController.swift */,
+				AC5675D8264C66C600215437 /* AllCollectionViewCell.swift */,
+			);
+			path = All;
+			sourceTree = "<group>";
+		};
 		AC6CC4072642158C00414382 /* scUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +187,8 @@
 				ACBCD5552640E1E3007AA96F /* SegmentedControl */,
 				AC6CC4072642158C00414382 /* scUITests */,
 				ACBCD5542640E1E3007AA96F /* Products */,
+				70FC3786D6C67C51045AA273 /* Pods */,
+				3E775E090DA3A85F2E057E90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,6 +214,7 @@
 		ACBCD56A2640E4BF007AA96F /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				AC4EFA6126516DEC00379041 /* JSON */,
 				ACBCD5612640E1E6007AA96F /* LaunchScreen.storyboard */,
 				ACBCD55F2640E1E6007AA96F /* Assets.xcassets */,
 				ACBCD55C2640E1E3007AA96F /* Main.storyboard */,
@@ -166,12 +225,13 @@
 		ACBCD56B2640E4CB007AA96F /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				AC4EFA5E26516C4E00379041 /* Extensions */,
 				ACBCD5772640EE7D007AA96F /* Model */,
 				ACBCD5742640E839007AA96F /* Helpers */,
+				ACBCD5702640E5F7007AA96F /* Modules */,
 				ACBCD5562640E1E3007AA96F /* AppDelegate.swift */,
 				ACBCD5582640E1E3007AA96F /* SceneDelegate.swift */,
 				ACBCD55A2640E1E3007AA96F /* HomeViewController.swift */,
-				ACBCD5702640E5F7007AA96F /* Modules */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -179,6 +239,7 @@
 		ACBCD5702640E5F7007AA96F /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				AC5675D7264C66A900215437 /* All */,
 				ACBCD5712640E61E007AA96F /* OS */,
 			);
 			path = Modules;
@@ -188,8 +249,6 @@
 			isa = PBXGroup;
 			children = (
 				ACBCD5722640E6AF007AA96F /* OSViewController.swift */,
-				ACBCD56C2640E56C007AA96F /* iOSViewController.swift */,
-				ACBCD56E2640E58E007AA96F /* AndroidViewController.swift */,
 			);
 			path = OS;
 			sourceTree = "<group>";
@@ -198,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				ACBCD5752640E879007AA96F /* ViewCodable.swift */,
+				AC5675DC264C7C5900215437 /* CollectionViewCodable.swift */,
 				ACFF6EA82647558F005F2528 /* Utils.swift */,
 				ACBCD57A264101EF007AA96F /* UIColor+extension.swift */,
 				ACFF6EA62646E70B005F2528 /* SpinnerViewController.swift */,
@@ -238,9 +298,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACBCD5672640E1E6007AA96F /* Build configuration list for PBXNativeTarget "SegmentedControl" */;
 			buildPhases = (
+				2FE45092EF577E29E94D44F0 /* [CP] Check Pods Manifest.lock */,
 				ACBCD54F2640E1E3007AA96F /* Sources */,
 				ACBCD5502640E1E3007AA96F /* Frameworks */,
 				ACBCD5512640E1E3007AA96F /* Resources */,
+				A7AD915C95E391158E29285C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -301,12 +363,56 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACBCD5632640E1E6007AA96F /* LaunchScreen.storyboard in Resources */,
+				AC4EFA6726517D8400379041 /* osList.json in Resources */,
+				AC4EFA6526516E7500379041 /* os.json in Resources */,
 				ACBCD5602640E1E6007AA96F /* Assets.xcassets in Resources */,
 				ACBCD55E2640E1E3007AA96F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FE45092EF577E29E94D44F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SegmentedControl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7AD915C95E391158E29285C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SegmentedControl/Pods-SegmentedControl-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SegmentedControl/Pods-SegmentedControl-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SegmentedControl/Pods-SegmentedControl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AC6CC4022642158C00414382 /* Sources */ = {
@@ -327,17 +433,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACBCD56D2640E56C007AA96F /* iOSViewController.swift in Sources */,
 				ACBCD55B2640E1E3007AA96F /* HomeViewController.swift in Sources */,
 				ACBCD5732640E6AF007AA96F /* OSViewController.swift in Sources */,
+				AC5675D9264C66C600215437 /* AllCollectionViewCell.swift in Sources */,
+				AC4EFA6026516C6100379041 /* Bundle+Extension.swift in Sources */,
 				ACBCD57B264101EF007AA96F /* UIColor+extension.swift in Sources */,
 				ACBCD5572640E1E3007AA96F /* AppDelegate.swift in Sources */,
 				ACFF6EA72646E70B005F2528 /* SpinnerViewController.swift in Sources */,
-				ACBCD56F2640E58E007AA96F /* AndroidViewController.swift in Sources */,
 				ACFF6EA92647558F005F2528 /* Utils.swift in Sources */,
 				ACBCD5792640EE91007AA96F /* OS.swift in Sources */,
 				ACBCD5592640E1E3007AA96F /* SceneDelegate.swift in Sources */,
 				ACBCD5762640E879007AA96F /* ViewCodable.swift in Sources */,
+				AC5675DB264C66E700215437 /* AllCollectionViewController.swift in Sources */,
+				AC5675DD264C7C5900215437 /* CollectionViewCodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,6 +635,7 @@
 		};
 		ACBCD5682640E1E6007AA96F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B095A4713B66CE4B4A88BA8 /* Pods-SegmentedControl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -546,6 +655,7 @@
 		};
 		ACBCD5692640E1E6007AA96F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7D31490579DBB9645A6813 /* Pods-SegmentedControl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

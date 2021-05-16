@@ -8,40 +8,52 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-
-    let navSegmentControl: UISegmentedControl = {
-        var navSegmentControl = UISegmentedControl()
+    
+    var navSegmentControl: UISegmentedControl?
+    var viewControllers: [OSViewController] = []
+    let allViewController: AllCollectionViewController? = nil
+    var oslist: [OS] = Bundle.main.decode([OS].self, from: "osList.json")
+    
+    private func makeSegmentControl(osList: [OS]) -> UISegmentedControl {
+        let navSegmentControl = UISegmentedControl()
         
         navSegmentControl.translatesAutoresizingMaskIntoConstraints = false
         navSegmentControl.addTarget(self, action: #selector(madeSelection), for: .valueChanged)
-        navSegmentControl.insertSegment(withTitle: "iOS", at: 0, animated: true)
-        navSegmentControl.insertSegment(withTitle: "Android", at: 1, animated: true)
-        navSegmentControl.selectedSegmentIndex = 0
+        var i = OSindex.unix.rawValue
+        
+        for os in osList {
+            let vc = OSViewController(os: os)
+            if let os = vc.os,
+               os.index == OSindex.linux {
+                vc.view.isHidden = true
+            } else {
+                vc.view.isHidden = true
+            }
+            navSegmentControl.insertSegment(withTitle: os.name, at: i, animated: true)
+            self.viewControllers.append(vc)
+            self.addAsChildVC(childVC: vc)
+            
+            i += 1
+        }
+        
+        navSegmentControl.selectedSegmentIndex = OSindex.linux.rawValue
         
         return navSegmentControl
-    }()
+    }
     let containerView: UIView = {
         var container = UIView()
         container.translatesAutoresizingMaskIntoConstraints = false
         return container
-    }()
-
-    lazy var iOSVC: iOSViewController = {
-        let vc = iOSViewController()
-        self.addAsChildVC(childVC: vc)
-        return vc
-    }()
-    lazy var androidVC: AndroidViewController = {
-        let vc = AndroidViewController()
-        self.addAsChildVC(childVC: vc)
-        return vc
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.accessibilityIdentifier = "HomeViewController"
         view.backgroundColor = UIColor(named: "background")
-        iOSVC.view.isHidden = false
+        
+        
+        
+        navSegmentControl = makeSegmentControl(osList: self.oslist )
         setup()
     }
     
@@ -66,24 +78,38 @@ class HomeViewController: UIViewController {
     
     @objc
     func madeSelection(_ sender: UISegmentedControl) {
-        iOSVC.view.isHidden = sender.selectedSegmentIndex == 1
-        androidVC.view.isHidden = sender.selectedSegmentIndex == 0
+        
+        for vc in self.viewControllers {
+            if let os = vc.os,
+               os.index.rawValue == sender.selectedSegmentIndex {
+                vc.view.isHidden = true
+            } else {
+                vc.view.isHidden = true
+            }
+        }
     }
 }
 
 extension HomeViewController: ViewCodable {
     func setupViews() {
         view.addSubview(containerView)
-        view.addSubview(navSegmentControl)
+        guard let nav = navSegmentControl else { return }
+        
+        addAsChildVC(childVC: AllCollectionViewController(osList: self.oslist))
+        nav.insertSegment(withTitle: "Todos", at: self.viewControllers.count , animated: true)
+        
+        view.addSubview(nav)
     }
     func setupAnchors() {
+        guard let nav = navSegmentControl else { return }
         NSLayoutConstraint.activate([
-            navSegmentControl.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor),
-            navSegmentControl.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
-            navSegmentControl.trailingAnchor.constraint(equalTo: view.layoutMarginsGuide.trailingAnchor),
+            
+            nav.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor),
+            nav.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+            nav.trailingAnchor.constraint(equalTo: view.layoutMarginsGuide.trailingAnchor),
             
             containerView.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor),
-            containerView.topAnchor.constraint(equalTo: navSegmentControl.bottomAnchor, constant: 12),
+            containerView.topAnchor.constraint(equalTo: nav.bottomAnchor, constant: 12),
             containerView.trailingAnchor.constraint(equalTo: view.layoutMarginsGuide.trailingAnchor),
             containerView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
         ])

@@ -1,0 +1,27 @@
+[
+    {
+        "index": 0,
+        "name": "Unix",
+        "summary": "Unix é um sistema operativo portável, multitarefa e multiutilizador originalmente criado por Ken Thompson, Dennis Ritchie, entre outros, que trabalhavam nos Laboratórios Bell da AT&T.[1]"
+    },
+    {
+        "index": 1,
+        "name": "Windows",
+        "summary": "Microsoft Windows (ou simplesmente Windows) é uma família de sistemas operacionais desenvolvidos, comercializados e vendidos pela Microsoft. É constituída por várias famílias de sistemas operacionais, cada qual atendendo a um determinado setor da indústria da computação, sendo que o sistema geralmente é associado com a arquitetura IBM PC compatível. As famílias ativas do Windows incluem Windows NT, Windows Embedded e Windows Phone; estes podem abranger subfamílias, como Windows CE ou Windows Server."
+    },
+    {
+        "index": 2,
+        "name": "Linux",
+        "summary": "Linux é um termo popularmente empregado para se referir a sistemas operativos (português europeu) ou sistemas operacionais (português brasileiro) que utilizam o Kernel Linux.[5] O núcleo (ou kernel, em Alemão) foi desenvolvido pelo programador finlandês Linus Torvalds, inspirado no sistema Minix. O seu código-fonte está disponível sob a licença GPL (versão 2) para que qualquer pessoa o possa utilizar, estudar, modificar e distribuir livremente de acordo com os termos da licença. A Free Software Foundation e seus colaboradores recomenda[6] o nome GNU/Linux para descrever o sistema operacional, como resultado de uma disputa controversa entre membros da comunidade de software livre e código-aberto.[7][8]"
+    },
+    {
+        "index": 3,
+        "name": "iOS",
+        "summary": "iOS (antes chamado de iPhone OS) é um sistema operacional móvel da Apple Inc. desenvolvido originalmente para o iPhone, iPod Touch e o iPad até a introdução do iPadOS em 2019, um sistema derivado do iOS. A Apple não permite que o iOS seja executado em hardware de terceiros.[2] As versões principais do iOS são lançadas anualmente."
+    },
+    {
+        "index": 4,
+        "name": "Android",
+        "summary": "Android é um sistema operacional (SO) baseado no núcleo Linux, desenvolvido por um consórcio de desenvolvedores conhecido como Open Handset Alliance, sendo o principal colaborador o Google.[8] Com uma interface de usuário baseada na manipulação direta, o Android é projetado principalmente para dispositivos móveis com tela sensível ao toque como smartphones e tablets; com interface específica para TV, carros (Android Auto) e relógios inteligentes (Wear OS). O sistema operacional utiliza-se da tela sensível ao toque para que o usuário possa manipular objetos virtuais, assim como um teclado virtual. Apesar de ser principalmente utilizado em dispositivos com tela sensível ao toque, também é utilizado em consoles de videogames, câmeras digitais, computadores e outros dispositivos eletrônicos."
+    }
+]

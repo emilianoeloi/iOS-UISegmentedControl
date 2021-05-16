@@ -7,7 +7,16 @@
 
 import Foundation
 
-struct OS {
+enum OSindex: Int, Decodable {
+    case unix = 0
+    case windows = 1
+    case linux = 2
+    case iOS = 3
+    case android = 4
+}
+
+struct OS: Decodable {
+    var index: OSindex
     var name: String
-    var imagePath: String?
+    var summary: String
 }

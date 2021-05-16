@@ -7,12 +7,23 @@
 
 import UIKit
 
+// OS
 extension UIColor {
     static let osA = UIColor(rgb: 0x6FD904)
     static let osB = UIColor(rgb: 0xA8D95F)
     static let osC = UIColor(rgb: 0xA4A66F)
     static let osD = UIColor(rgb: 0xF2F2F2)
     static let osE = UIColor(rgb: 0x0D0D0D)
+}
+
+// Meninas
+// https://color.adobe.com/pt/search?q=meninas
+extension UIColor {
+    static let meninasA = UIColor(rgb: 0xF25270)
+    static let meninasB = UIColor(rgb: 0x0477BF)
+    static let meninasC = UIColor(rgb: 0xF2C48D)
+    static let meninasD = UIColor(rgb: 0x592D1D)
+    static let meninasE = UIColor(rgb: 0xF2F2F2)
 }
 
 extension UIColor {
