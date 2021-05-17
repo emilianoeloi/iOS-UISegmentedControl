@@ -1,0 +1,7 @@
+{
+  "name" : "John Appleseed",
+  "id" : 7,
+  "favoriteToy" : {
+    "name" : "Teddy Bear"
+  }
+}

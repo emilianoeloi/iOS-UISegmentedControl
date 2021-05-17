@@ -10,6 +10,9 @@
 		AC4EFA6026516C6100379041 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4EFA5F26516C6100379041 /* Bundle+Extension.swift */; };
 		AC4EFA6526516E7500379041 /* os.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4EFA6426516E7500379041 /* os.json */; };
 		AC4EFA6726517D8400379041 /* osList.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4EFA6626517D8400379041 /* osList.json */; };
+		AC4EFA692651C0A000379041 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4EFA682651C0A000379041 /* Employee.swift */; };
+		AC4EFA6C2651C17C00379041 /* EmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4EFA6B2651C17C00379041 /* EmployeeViewController.swift */; };
+		AC4EFA6E2651C1DD00379041 /* Employee.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4EFA6D2651C1DD00379041 /* Employee.json */; };
 		AC5675D9264C66C600215437 /* AllCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5675D8264C66C600215437 /* AllCollectionViewCell.swift */; };
 		AC5675DB264C66E700215437 /* AllCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5675DA264C66E700215437 /* AllCollectionViewController.swift */; };
 		AC5675DD264C7C5900215437 /* CollectionViewCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5675DC264C7C5900215437 /* CollectionViewCodable.swift */; };
@@ -51,6 +54,9 @@
 		AC4EFA5F26516C6100379041 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 		AC4EFA6426516E7500379041 /* os.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = os.json; sourceTree = "<group>"; };
 		AC4EFA6626517D8400379041 /* osList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = osList.json; sourceTree = "<group>"; };
+		AC4EFA682651C0A000379041 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		AC4EFA6B2651C17C00379041 /* EmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewController.swift; sourceTree = "<group>"; };
+		AC4EFA6D2651C1DD00379041 /* Employee.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Employee.json; sourceTree = "<group>"; };
 		AC5675D8264C66C600215437 /* AllCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCollectionViewCell.swift; sourceTree = "<group>"; };
 		AC5675DA264C66E700215437 /* AllCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCollectionViewController.swift; sourceTree = "<group>"; };
 		AC5675DC264C7C5900215437 /* CollectionViewCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCodable.swift; sourceTree = "<group>"; };
@@ -128,9 +134,18 @@
 			isa = PBXGroup;
 			children = (
 				AC4EFA6426516E7500379041 /* os.json */,
+				AC4EFA6D2651C1DD00379041 /* Employee.json */,
 				AC4EFA6626517D8400379041 /* osList.json */,
 			);
 			path = JSON;
+			sourceTree = "<group>";
+		};
+		AC4EFA6A2651C16000379041 /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				AC4EFA6B2651C17C00379041 /* EmployeeViewController.swift */,
+			);
+			path = Employee;
 			sourceTree = "<group>";
 		};
 		AC5675D7264C66A900215437 /* All */ = {
@@ -239,6 +254,7 @@
 		ACBCD5702640E5F7007AA96F /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				AC4EFA6A2651C16000379041 /* Employee */,
 				AC5675D7264C66A900215437 /* All */,
 				ACBCD5712640E61E007AA96F /* OS */,
 			);
@@ -269,6 +285,7 @@
 			isa = PBXGroup;
 			children = (
 				ACBCD5782640EE91007AA96F /* OS.swift */,
+				AC4EFA682651C0A000379041 /* Employee.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -366,6 +383,7 @@
 				AC4EFA6726517D8400379041 /* osList.json in Resources */,
 				AC4EFA6526516E7500379041 /* os.json in Resources */,
 				ACBCD5602640E1E6007AA96F /* Assets.xcassets in Resources */,
+				AC4EFA6E2651C1DD00379041 /* Employee.json in Resources */,
 				ACBCD55E2640E1E3007AA96F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,12 +454,14 @@
 				ACBCD55B2640E1E3007AA96F /* HomeViewController.swift in Sources */,
 				ACBCD5732640E6AF007AA96F /* OSViewController.swift in Sources */,
 				AC5675D9264C66C600215437 /* AllCollectionViewCell.swift in Sources */,
+				AC4EFA692651C0A000379041 /* Employee.swift in Sources */,
 				AC4EFA6026516C6100379041 /* Bundle+Extension.swift in Sources */,
 				ACBCD57B264101EF007AA96F /* UIColor+extension.swift in Sources */,
 				ACBCD5572640E1E3007AA96F /* AppDelegate.swift in Sources */,
 				ACFF6EA72646E70B005F2528 /* SpinnerViewController.swift in Sources */,
 				ACFF6EA92647558F005F2528 /* Utils.swift in Sources */,
 				ACBCD5792640EE91007AA96F /* OS.swift in Sources */,
+				AC4EFA6C2651C17C00379041 /* EmployeeViewController.swift in Sources */,
 				ACBCD5592640E1E3007AA96F /* SceneDelegate.swift in Sources */,
 				ACBCD5762640E879007AA96F /* ViewCodable.swift in Sources */,
 				AC5675DB264C66E700215437 /* AllCollectionViewController.swift in Sources */,

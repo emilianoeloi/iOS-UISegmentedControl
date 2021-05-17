@@ -4,7 +4,11 @@ iOS UI Segmented Control
 
 ## UI Activity Indicator View
 
+## Encoder and Decoder
+
 ## Referências
+
+Encoding and Decoding in Swift: https://www.raywenderlich.com/3418439-encoding-and-decoding-in-swift Acessando em 16 de maio de 2021
 
 How to decode JSON from your app bundle the easy way: https://www.hackingwithswift.com/example-code/system/how-to-decode-json-from-your-app-bundle-the-easy-way Acessado em 16 de maio de 2021
 
